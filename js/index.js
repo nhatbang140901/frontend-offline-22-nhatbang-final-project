@@ -5,7 +5,7 @@ const API = axios.create({
 dayjs.extend(window.dayjs_plugin_relativeTime);
 dayjs.locale("vi");
 
-const elMenu = document.getElementById("menu");
+const elMenu = document.getElementById("mainMenu");
 const elArticlesTopStory1 = document.getElementById("articlesTopStory1");
 const elArticlesTopStory2 = document.getElementById("articlesTopStory2");
 const elEchoHeroBaner = document.getElementById("EchoHeroBaner");
@@ -22,7 +22,7 @@ API.get(`categories_news`).then((response) => {
   let htmlMenu = "";
   let htmlMenuOther = "";
   categories.forEach((item, index) => {
-    if (index < 5) {
+    if (index < 3) {
       htmlMenu += `<li><a href="index.html">${item.name}</a></li>`;
     } else {
       htmlMenuOther += `<li><a href="index.html">${item.name}</a></li>`;
@@ -31,7 +31,7 @@ API.get(`categories_news`).then((response) => {
   elMenu.innerHTML =
     htmlMenu +
     `<li class="menu-item echo-has-dropdown">
-    <a href="#" class="echo-dropdown-main-element">Danh mục khác</a>
+    <a href="#" class="echo-dropdown-main-element">Danh mục khác </a>
     <ul class="echo-submenu list-unstyled menu-pages">
         ${htmlMenuOther}
     </ul>

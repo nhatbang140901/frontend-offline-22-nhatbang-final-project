@@ -28126,4 +28126,5 @@ html[data-theme=dark] body.home-two .echo-footer-area.footer-2 .echo-get-in-tuch
 }
 .cover{
   display: flex;
+  justify-content: center;
 }

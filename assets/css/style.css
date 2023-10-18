@@ -17148,7 +17148,7 @@ html[data-theme=dark] .echo-popup-model .echo-popup-transition a:hover {
 
 .echo-home-1-hero-area-top-story {
   background: #F9F9F9;
-  padding: 0px 20px;
+  padding: 17px 20px 25px 20px;
 }
 .echo-home-1-hero-area-top-story h6 {
   font-size: 20px;
@@ -17245,8 +17245,7 @@ html[data-theme=dark] .echo-popup-model .echo-popup-transition a:hover {
 }
 .echo-home-1-hero-area-top-story .echo-top-story .echo-story-picture a img {
   width: 100%;
-  height: 80px;
-
+  height: auto;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .echo-home-1-hero-area-top-story .echo-top-story .echo-story-picture a img {
@@ -17453,7 +17452,6 @@ html[data-theme=dark] .echo-popup-model .echo-popup-transition a:hover {
 }
 .echo-latest-news-area .echo-latest-news-full-content img {
   width: 100%;
-  height: 190px;
 }
 .echo-latest-news-area .echo-latest-news-main-content {
   cursor: auto;
@@ -19053,7 +19051,6 @@ html[data-theme=dark] .echo-popup-model .echo-popup-transition a:hover {
 }
 .echo-popular-news-area .echo-popular-area-img a img {
   width: 100%;
-  height: 300px;
 }
 .echo-popular-news-area .echo-popular-area-item-title {
   margin: 20px 0;
@@ -19067,6 +19064,7 @@ html[data-theme=dark] .echo-popup-model .echo-popup-transition a:hover {
   display: flex;
   gap: 20px;
   align-items: center;
+  justify-content: center;
 }
 .echo-popular-news-area .echo-popular-area-read-view a {
   font-size: 14px;
@@ -20536,6 +20534,7 @@ html[data-theme=dark] .echo-popup-model .echo-popup-transition a:hover {
 }
 .echo-hero-section.inner .echo-right-ct-1 .echo-home-1-hero-area-top-story .echo-top-story .echo-story-picture a img {
   width: 100%;
+  height: 100%;
 }
 .echo-hero-section.inner .echo-right-ct-1 .echo-home-1-hero-area-top-story .echo-top-story .echo-story-text {
   flex-basis: 60%;
@@ -28119,27 +28118,3 @@ html[data-theme=dark] body.home-two .echo-footer-area.footer-2 .echo-get-in-tuch
   color: #5E5E5E;
 }
 /*# sourceMappingURL=../maps/style.css.map */
-#articlesTrending{
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-}
-
-.edit {
-  overflow: hidden;
-  -webkit-line-clamp: 2;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  color: inherit;
-}
-
-.edit1 {
-  line-height: 42px;
-  font-size: 36px;
-}
-
-.edit2 {
-  line-height: 20px;
-  font-size: 18px;
-  color: #fff;
-}
